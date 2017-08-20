@@ -86,10 +86,15 @@ function StepOver ()
   fwd()
 end
 
+--Return to Start
+function Return ()
+  --If on an odd line, travel sideways then down
+    --Otherwise just travel sideways
+end
 
 print("Debug: Core loop began.")
---core loop
 
+--Core loop
 while true do
   locX = 1
   while locX <= treeGridX do
