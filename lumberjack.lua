@@ -86,7 +86,7 @@ function StepOver ()
   fwd()
 end
 
---Return to Start
+--Return to Star
 function Return ()
   --If on an odd line, travel sideways then down
     --Otherwise just travel sideways
